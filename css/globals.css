@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.container {
+  width: 1170px;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: var(--headers-font);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px; /* 118.056% */
+  letter-spacing: 3.6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  background-color: var(--text-color-gray-on-black);
+  width: 60px;
+  height: 1px;
+  border: none;
+}
