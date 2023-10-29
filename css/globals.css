@@ -22,6 +22,7 @@ ul {
 
 .link {
   text-decoration: none;
+  color: var(--text-color-white-on-black);
 }
 
 h1 {
