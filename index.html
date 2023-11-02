@@ -15,8 +15,8 @@
   <body>
     <header>
       <div class="container header-container">
-        <div class="menu-left-container">
-          <svg width="76" height="76">
+        <div class="menu-left-container hidden">
+          <svg width="76" height="76" class="logo">
             <use href="./images/icons.svg#icon-Logo"></use>
           </svg>
           <ul class="horizontal-list">
@@ -28,6 +28,12 @@
         <div class="right-hero-section">
           <div class="menu-up-container">
             <nav>
+              <svg width="70" height="56" class="logo-mobile">
+                <use href="./images/icons.svg#icon-Logo"></use>
+              </svg>
+              <svg width="40" height="40" class="menu-mobile">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
               <ul class="menu">
                 <li>
                   <a class="link menu-link" href="">About</a>
@@ -41,7 +47,9 @@
             </nav>
             <address>
               <ul>
-                <li><a href="tel:380441111111" class="link"> +38 044 111 11 11</a></li>
+                <li>
+                  <a href="tel:380441111111" class="link"> +38 044 111 11 11</a>
+                </li>
                 <li><button type="button">ONLINE-BOOKING</button></li>
               </ul>
             </address>
