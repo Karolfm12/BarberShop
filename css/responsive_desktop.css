@@ -2,10 +2,9 @@
   .logo {
     fill: black;
   }
+
+  .menu-toggle,
   .logo-mobile {
-    display: none;
-  }
-  .menu-mobile {
     display: none;
   }
 
@@ -172,6 +171,10 @@
   .slider-back-button:hover::after,
   .slider-forward-button:hover::after {
     background-color: var(--text-color-white-on-black);
+  }
+
+  .slider-paginations-mobile {
+    display: none;
   }
 
   /* .slider-back-button > hr:hover {
